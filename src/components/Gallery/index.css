@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .Gallery-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  
+  .heading {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 800;
+    color: #1e293b;
+  }
+  
+  .text {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 800;
+    color: #64748b;
+  }
+  
+  .list-items-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  
+  .gallery-image {
+    padding-right: 30px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 34px;
+    }
+  
+    .text {
+      font-size: 23px;
+    }
+  
+    .gallery-image {
+      max-width: 100vw;
+    }
+  }

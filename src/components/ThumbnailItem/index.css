@@ -1,0 +1,41 @@
+.button {
+    background-color: transparent;
+    border-width: 0px;
+  }
+
+  .active {
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 577px) {
+    .button {
+      height: 10px;
+      width: 10px;
+    }
+  
+    .Thumbnail-Item {
+      padding-right: 20px;
+    }
+  }
+  
+  @media not screen and (min-width: 768px) {
+    .Thumbnail-Item {
+      padding-right: 25px;
+    }
+  
+    .button {
+      height: 30px;
+      width: 100px;
+    }
+  }
+  
+  @media not screen and (min-width: 768px) {
+    .button {
+      height: 50px;
+      width: 100px;
+    }
+    .Thumbnail-Item {
+      padding-right: 15px;
+      padding-bottom: 15px;
+    }
+  }
